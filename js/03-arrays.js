@@ -59,7 +59,13 @@ let [x, y, z] = coordinates // qui l'array ha dimensione nota a priori, quindi r
 // spread operator
 
 let numbers = [1, 2, 3, 4, 5]
-let squares = [1, 4, 9, 16, 25]
+let squares = [
+  1,
+  4,
+  9,
+  16,
+  25
+]
 
 console.log([...numbers, 6])
 console.log([...numbers, ...squares])
