@@ -33,10 +33,5 @@ let name = 'Matteo';
 console.log("Ciao, mi chiamo " + name + "!"); // concatenazione di stringhe
 console.log(`Ciao, mi chiamo ${name.toUpperCase()}!`); // interpolare espressioni js
 
-/* arrays */
-let firstName = "Matteo";
-let lastName = "Mistretta";
-let age = 41;
-let person = ["Matteo", "Mistretta", 41]
-console.log(person[0], person[1], person[2], person[3])
-console.log(person.length, person[person.length - 1])
+// JavaScript è dinamicamente tipizzato: il tipo delle variabili viene dedotto automaticamente
+// JavaScript è debolmente tipizzato: il tipo delle variabili può cambiare in base all'operazione
