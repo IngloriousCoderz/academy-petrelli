@@ -1,0 +1,18 @@
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.list-title {
+  background-color: rgba(100, 149, 237, 0.5);
+  border: 2px dotted grey;
+}
+
+#pets {
+  /* border: 1px solid purple; */
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-left-color: darkgrey;
+  border-top-color: lightsteelblue;
+}
